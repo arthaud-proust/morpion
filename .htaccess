@@ -1,0 +1,10 @@
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+<Files .json>
+Order allow,deny
+Deny from all
+</FilesMatch>
